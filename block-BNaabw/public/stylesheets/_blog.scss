@@ -1,0 +1,45 @@
+.blog-posts {
+    padding: 5rem 0;
+    max-width: 1000px;
+    margin: 0 auto;
+
+    hr {
+        border-top: 1px solid rgb(196, 196, 196);
+    }
+
+    .blog {
+        margin: 3rem 0;
+
+        h3 {
+            font-weight: 700;
+            font-size: 1.5rem;
+            margin: 1rem 0;
+        }
+
+        span, a {
+            color: $primary;
+            font-size: 0.75rem;
+            letter-spacing: 2px;
+        }
+
+        p {
+            color: $text-light;
+            margin: 1rem 0;
+        }
+
+        a {
+            padding-bottom: 0.25rem;
+            
+        }
+
+        a:hover {
+            border-bottom: 1px solid $primary;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .blog {
+            margin: 3rem;
+        }
+    }
+}

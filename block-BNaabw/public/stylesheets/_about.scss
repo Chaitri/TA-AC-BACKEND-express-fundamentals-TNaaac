@@ -1,0 +1,101 @@
+// PAGE INTRO
+
+.page-intro {
+    background-color: $primary;
+    color: $secondary;
+    padding: 3rem 0;
+    text-align: center;
+
+    h3 {
+        margin: 1rem 0;
+    }
+
+    p {
+        color: $secondary;
+    }
+}
+
+.leader span {
+    color: $primary;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+// VALUES
+
+.values {
+
+    padding: 5rem 0;
+
+    .value-img {
+        text-align: center;
+    }
+    
+
+    img {
+        width: 60%;
+        text-align: center;
+    }
+    
+
+    .value-item {
+
+        margin: 2rem 0;
+
+        i {
+            font-size: 3rem;
+            margin-right: 2rem;
+        }
+
+        h4 {
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: $text-dark;
+        }
+
+        p {
+            color: $text-light
+        }
+
+    }
+
+}
+
+// TEAM
+
+.team {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+
+    text-align: center;
+
+    .team-item {
+        background-color: white;
+        margin: 2rem 3rem;
+
+        h5 {
+            font-weight: 700;
+            margin: 0.5rem 0;
+        }
+
+        span {
+            display: inline-block;
+            color: $primary;
+            font-size: 0.75rem;
+            margin: 0.5rem 0;
+        }
+
+        @media screen and (max-width:768px) {
+            h5 {
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+}
+
+// SOLUTIONS
+
+.solutions.about{
+    background-color: white;
+} 
