@@ -1,0 +1,17 @@
+.reach-out {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.contacts {
+  margin-top: 3rem;
+}
+
+.contact-item i {
+  font-size: 2rem;
+  padding: 1rem;
+  border: 2px solid red;
+  border-radius: 50%;
+  background: #ebebeb;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,84 @@
+// PRICING 
+
+.pricing {
+    padding: 5rem;
+    background-color: #f8f9fa;
+
+    .section-para {
+        text-align: center;
+        color: $text-light;
+    }
+}
+
+.pricing-cards {
+    margin-top: 3rem;
+}
+
+.price-card {
+    background-color: #fff;
+    padding: 3rem;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+
+    .price-amount {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+
+    .price-amount + p {
+        color: $text-light;
+        font-size: 0.75rem;
+    }
+
+    ul {
+        margin: 1rem 0;
+    }
+
+    li {
+        list-style-type: '- ';
+        margin: 0.3rem 2rem;
+        text-align: left;
+    }
+
+    a {
+        padding: 0.5rem 1rem;
+        margin: 1rem 0;
+    }
+}
+
+// FAQs
+
+.faqs {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.questions {
+    padding-top: 3rem;
+
+    .question-card {
+        text-align: left;
+        border: 1px solid #dfdfdf;
+        padding: 1rem;
+        margin: 2rem 0;
+        width: 48%;
+
+        h4 {
+            margin: 1rem 0;
+            font-weight: 700;
+            color: $text-dark;
+        }
+
+        p {
+            color: $text-light;
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .price-card {
+        margin: 3rem 0;
+    }
+}

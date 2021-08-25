@@ -1,0 +1,84 @@
+.reach-out {
+    padding: 5rem 0;
+    background-color: $bg-light;
+    text-align: center ;
+    p {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.contacts {
+    max-width: 1000px;
+    margin: 3rem auto;
+    
+}
+
+.contact-item {
+    i {
+        font-size: 2rem;
+        padding: 2rem;
+        border-radius: 50%;
+        background: #d4d4d4;
+        color: $primary;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+
+    address, a {
+        color: $text-light;
+    }
+}
+
+.contact-section {
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.contact-form {
+
+    margin: 3rem 0;
+
+    form {
+        input, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 2rem;
+            padding: 0.5rem;
+        }
+
+        textarea {
+            font-family: $font-family;
+        }
+
+        .btn {
+            border: none;
+            width: 100px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-item {
+        margin: 3rem 0;
+    }
+
+    iframe {
+        margin: 2rem auto;
+        width: 100%;
+    }
+
+    .contact-section {
+        padding: 0;
+    }
+
+    .contact-form form {
+        width: 90%;
+        margin: 3rem auto;
+    }
+}
