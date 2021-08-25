@@ -1,0 +1,76 @@
+// PRODUCTS
+
+.products {
+    background-color: $bg-light;
+    padding: 5rem 0;
+
+    .product-intro {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    hr {
+        border-top: 2px solid #e6e7e9;
+        margin: 2rem 0;
+    }
+}
+
+.product {
+    text-align: left;
+
+    img {
+        width: 5rem;
+    }
+
+    h4 {
+        font-weight: 700;
+        margin: 1rem 0;
+    }
+
+    @media screen and (max-width: 768px) {
+        margin: 2rem 0;
+    }
+}
+
+// DEAL INFO
+
+.quote-info {
+    .sep {
+        margin: 0 2rem;
+    }
+
+    .sep + .deal {
+        font-weight: 400;
+    }
+
+    @media screen and (max-width: 768px) {
+        .sep {
+            display: none;
+        }
+
+        .deal {
+            display: inline-block;
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        & ~ a {
+            margin: 0;
+        }
+    }
+}
+
+// AWARD
+
+.award {
+    padding: 5rem 0;
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        img {
+            margin: 3rem 0;
+        }
+
+        padding-bottom: 0;
+    }
+}
