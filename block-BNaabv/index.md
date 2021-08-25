@@ -6,10 +6,24 @@ Q. Create a package.json file manually with
 - description
 - version
 
+```js
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "description": "a sample project"
+}
+```
+
 Q. Create a package.json with using npm init script with above content
 
 - add express package with exact version of 4.16.4
 - upgrade it to the latest version
+
+```
+npm init
+npm install express@4.16.4
+npm install express@latest
+```
 
 Q. Create a basic express server with 2 routes
 
